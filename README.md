@@ -47,4 +47,4 @@ A simple web-based currency converter that fetches real-time exchange rates and 
 ## 📦 Setup & Installation
 1. **Clone the Repository**  
    ```sh
-   git clone https://github.com/your-username/currency-converter.git
+   git clone https://github.com/rambabupalla/Currency-Converter.git
