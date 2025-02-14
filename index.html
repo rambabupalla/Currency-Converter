@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cal">
+        <h1>Currency Converter</h1>
+        <div class="amt-sec">
+            <label id="entamt">Enter Amount: </label>
+            <input type="number" id="amt">
+        </div>
+        <div class="ft">
+            <div class="from">
+                <label>From: </label>
+                <select id="fromcur">
+                    <option>INR</option>
+                    <option>USD</option>
+                    <option>AUD</option>
+                    <option>NP</option>
+                </select>
+            </div>
+            <button id="swapBtn">⇄</button>
+            <div class="to">
+                <label>To: </label>
+                <select id="tocur">
+                    <option>INR</option>
+                    <option>USD</option>
+                    <option>AUD</option>
+                    <option>NP</option>
+                </select>
+            </div>
+        </div>
+        <div class="result">
+            <p id="res">1 USD in INR is 83</p>
+        </div>
+        <button id="btn">Get Exchange Rate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

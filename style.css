@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Improved font */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3E4E26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cal {
+    background-color: #626F47;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 25px;
+    width: fit-content;
+    line-height: 3rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+h1 {
+    font-size: 2rem;
+    color: #FEFAE0;
+    margin-bottom: 40px;
+}
+
+#entamt {
+    font-size: 1.3rem;
+    color: #FEFAE0;
+    font-weight: bold;
+}
+
+#amt {
+    width: 180px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #FEFAE0;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.ft {
+    display: flex;
+    gap: 2rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#swapBtn{
+    background-color: #A4B465;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+    
+}
+
+#swapBtn:hover {
+    background-color: #8F9E50;
+    transform: rotate(180deg);
+}
+
+.ft label {
+    font-size: 1.3rem;
+    color: #FEFAE0;
+    font-weight: bold;
+}
+
+select {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #FEFAE0;
+    background-color: #A4B465;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+#res {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FEFAE0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#btn {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #A4B465;
+    color: #FEFAE0;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn:hover {
+    background-color: #8F9E50;
+    transform: scale(1.05);
+}
