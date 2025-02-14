@@ -125,3 +125,61 @@ select {
     background-color: #8F9E50;
     transform: scale(1.05);
 }
+
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 20px;
+    }
+
+    .cal {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    #amt, select {
+        width: 100%;
+    }
+
+    .ft {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #swapBtn {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    #btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .cal {
+        padding: 15px;
+        width: 100%;
+    }
+
+    #amt, select {
+        font-size: 14px;
+    }
+
+    #btn {
+        font-size: 0.9rem;
+    }
+}
